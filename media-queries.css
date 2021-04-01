@@ -1,0 +1,185 @@
+/* Small devices */
+@media (min-width: 576px) {
+    .hero {
+        position: relative;
+    }
+    
+    .hero .hero-detail {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        background-color: transparent;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+
+    .container-header {
+        display: flex;
+    }
+
+    .container-header .site-menu {
+        display: block;
+    }
+
+    .container-header .logo a {
+        padding: 6px 0 0 0;
+    }
+
+    .usp {
+        display: flex
+    }  
+
+    .hero .hero-detail{
+        left: 10%;
+        top: 20%;
+    }
+
+    .hero .hero-detail h1 {
+        font-size: 2.5rem;
+    }
+
+    .skills {
+        max-width: 100%;  
+    }
+
+    .skills article {
+        display: flex;
+    }
+
+    .skills article figure {
+        width: 20%;
+        width: 45%;
+    }
+
+    .skills-details h3 {
+        text-align: left;
+    }
+
+    .skills-details p {
+        line-height: 1.6rem;
+        text-align: left;
+    }
+
+    article.reverse .skills-details h3,
+    article.reverse .skills-details p {
+        text-align: right;
+    }
+
+    .blog-article{
+        display: flex;
+    }
+
+    .blog-article-container {
+        margin-right: 15px;
+    }
+
+    .blog-article-image {
+        width: 40%;
+        margin-right: 15px;
+    }
+
+    .blog-article-details{
+        width: 60%;
+    }
+
+    .sidebar {
+        display: block;
+    }
+
+    .blog-article-details h3, .sidebar h3 {
+        font-size: 2rem;
+     }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-around;
+    }
+ }
+
+ /* desktop */
+
+@media (min-width: 992px) { 
+
+    .hero .hero-detail {
+        top: 31%;
+    }
+
+    .small-container {
+        width: 60%;
+        margin: auto;
+    }
+
+    .skills-details {
+        width: 80%;
+        text-align: left;  
+     }
+
+    .hero .hero-detail a {
+        width: 60%;
+    }
+
+    .small-container {
+        width: 60%;
+        margin: auto;
+    }
+
+    .skills article {
+        border: solid 1px transparent;
+        border-radius: 10px;
+        transition: 300ms;
+    }
+
+    .skills article:hover {
+        border: solid 1px #965891;
+    }
+
+    .blog-article-container {
+        width: 80%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .hero .hero-detail h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero-detail p {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .skills article figure {
+        margin: 0 20px 0 0;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    skills article h3 {
+        margin-bottom: 0px;
+    } 
+
+    .skills-details p {
+        text-align: left;
+    }
+
+    .contact-form .form-submit {
+        margin-bottom: 45px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .blog-article-image {
+        width: 30%;
+    }
+
+    .blog-article-details{
+        width: 70%;
+    }
+}
